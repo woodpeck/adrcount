@@ -31,7 +31,7 @@ Man startet einmal mit einem full history planet und haut dann taeglich die Diff
 
 (Kleines Problem, das mir noch nicht ganz klar ist - das Programm schluckt probelmos .osm.pbf, .osm.bz2, oder unkomprimierte .osc, aber irgendwie gehen die .osc.gz nicht, da muss man vermutlich dem Osmosis extra sagen, was es fuer ein Filetype ist - ich dekomprimiere einfach immer die .osc.gz vorher, dann tuts.)
 
-Ich habe gerade ein ./adr history-latest.osm.bz2  laufen und schick Dir die Resultate heut abend. Kannst aber zum Testen einfach mit einem beliebigen .osc oder .osm initialisieren.
+Zum Testen einfach mit einem beliebigen .osc oder .osm initialisieren; spaeter dann mit full history file.
 
 Das Programm ueberschreibt immer die objects.dat und users.dat, eventuell sollte man da noch einen Schutz einbauen, damit bei Platte voll oder so nicht alles kaputt geht (also schreiben in separate Datei, danach ummoven oder so).
 
