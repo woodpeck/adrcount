@@ -25,7 +25,7 @@ Stichwortartige Doku:
 
 Erzeugen von Daten bzw. Update:
 
-./adr <full-history-file oder osc-file> <directory>
+./adr [full-history-file oder osc-file] [directory]
 
 Man startet einmal mit einem full history planet und haut dann taeglich die Diffs drauf, oder sogar stuendlich, oder in beliebigen anderen Zeitintervallen. Wenn sich da mal was ueberlappt, ist es kein Problem, die Zaehler kommen dadurch nicht durcheinander. Im angegebenen "directory" (kann "." sein) wird ein objects.dat und ein users.dat angelegt (und auch von dort eingelesen, wenn vorhanden). Das objects.dat hat ca. 150 MB, das users.dat hat ca. 1 MB. Im objects.dat sind die IDs aller Objekte mit housenumber-Tag, im users.dat die Counter pro User.
 
